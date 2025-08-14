@@ -9,8 +9,8 @@ const Pagination = ({ totalPage, currentPage, setCurrentPage }) => {
   return (
     <>
       <ReactPaginate
-        previousLabel={<i class="fa-solid fa-less-than"></i>}
-        nextLabel={<i class="fa-solid fa-greater-than"></i>}
+        previousLabel={<i className="fa-solid fa-less-than"></i>}
+        nextLabel={<i className="fa-solid fa-greater-than"></i>}
         pageCount={Math.ceil(totalPage)}
         onPageChange={handlePageClick}
         forcePage={currentPage - 1}
