@@ -9,7 +9,7 @@ import { toast } from 'react-toastify';
 import moment from 'moment'
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import Pagination from '../../../../(components)/Configs/Pagination/pagination'
+import Pagination from '../../../Pagination/pagination'
 import DeleteLanguage from './DeleteLanguage';
 
 const page = () => {
